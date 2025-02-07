@@ -3,15 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Calculadora de médias</h1>
-    <input
-      type="value"
-      placeholder="Informe os valores que deseja calcular as médias"
-    />
-    <input type="button" value="Calcular" />
+    <div class="container">
+      <h1>Calculadora de Médias</h1>
+      <div class="input-section">
+        <p>Nota:</p>
+        <input
+          class="local-notas"
+          type="text"
+          placeholder="Informe a nota:"
+          id="nota"
+        />
+        <input id="inNota" type="button" value="Adicionar" />
+      </div>
+      <div class="notas-section">
+        <h2>Notas Adicionadas:</h2>
+        <ul id="listaNotas"></ul>
+      </div>
+      <div class="button-section">
+        <input type="button" value="Calcular média" class="calcular" />
+      </div>
+      <div class="result-section">
+        <p>A média é:</p>
+        <p class="resultado"></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
-  <script src="./main.js"></script>
 </html>

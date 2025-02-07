@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section,
+.notas-section,
+.button-section,
+.result-section {
+  margin-bottom: 20px;
+}
+
+.input-section p,
+.result-section p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.local-notas {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#inNota {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#inNota:hover {
+  background-color: #45a049;
+}
+
+.calcular {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calcular:hover {
+  background-color: #007bb5;
+}
+
+.notas-section h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.notas-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notas-section li {
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.result-section p.resultado {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
